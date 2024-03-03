@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+h2 a{
+    color: black;
+    padding-left: 20%;
+}
+.main{
+    width: 100%;
+    height: 900px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 7px;
+    padding-top: 20px;
+}
+form{
+    width: 100%;
+    height: 100%;
+}
+
+label{
+    font-weight: bold;
+}
+.box{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.box input{
+    width: 75%;
+    height: 33px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border-color: white;
+}
+
+.gen{
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.genitem{
+    display: flex;
+    gap: 9px;
+}
+.quali{
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 7px;
+    margin-bottom: 10px;
+}
+.special{
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.checkbox-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.chbox{
+    margin-right: 12px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    padding: 6px 13px 6px 13px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: rgb(5, 112, 5);
+}
+
+textarea{
+    width: 75%;
+    padding-left: 10px;
+}
